@@ -1,0 +1,12 @@
+@import "colores";
+
+.footer-container {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: $color-primario4;
+  color: white;
+  text-align: center;
+  padding: 10px 0; 
+}

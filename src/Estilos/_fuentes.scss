@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Nanum+Gothic&display=swap');
+
+$titles : 'Lora', serif;
+$titles-size : 2em;
+$subtitles-size: 1.4em;
+$text-size:1em;
+
+
+
+@mixin fuente-brand {
+  font-family: $titles;
+  font-size: $brand-size;
+}
+
+
+@mixin fuente-titulos {
+    font-family: $titles;
+    font-size: $titles-size;
+  }
+  
+  @mixin fuente-subtitulos {
+    font-family: $titles;
+    font-size: $subtitles-size;
+  }
+
+    
+  @mixin fuente-texto {
+    font-family: $titles;
+    font-size: $text-size;
+  }

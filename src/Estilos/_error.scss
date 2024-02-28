@@ -1,0 +1,7 @@
+@import "colores";
+.mi-boton {
+    background-color: $color-primario5;
+    &:hover {
+        background-color: $color-primario 
+    }
+}

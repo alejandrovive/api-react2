@@ -1,0 +1,17 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "colores";
+@import "fuentes";
+@import "error";
+@import "footer";
+@import "menu";
+@import "principal";
+@import "secundaria";
+@import "terciaria";
+@import "video";
+
+
+
+
+body {
+    background-color: $color-secundario;
+}

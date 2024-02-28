@@ -1,0 +1,12 @@
+@import "colores";
+@import "fuentes";
+
+.title {
+    @include fuente-titulos;
+
+}
+
+.text {
+    @include fuente-texto;
+
+}

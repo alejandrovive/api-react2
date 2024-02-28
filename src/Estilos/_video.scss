@@ -1,0 +1,21 @@
+@import "colores";
+@import "fuentes";
+
+
+.video-container video {
+    width: 100%; 
+    height: auto; 
+}
+.video-container {
+    background-color: $color-primario3;
+}
+.title {
+    @include fuente-titulos;
+
+}
+
+
+.text {
+    @include fuente-texto;
+
+}
